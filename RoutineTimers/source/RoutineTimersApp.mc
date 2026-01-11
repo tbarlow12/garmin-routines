@@ -18,7 +18,8 @@ class RoutineTimersApp extends Application.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() as [Views] or [Views, InputDelegates] {
-        return [ new RoutineTimersView(), new RoutineTimersDelegate() ];
+        var view = new RoutineTimersView();
+        return [view, new RoutineTimersDelegate(view)];
     }
 
 }

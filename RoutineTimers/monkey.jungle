@@ -1,9 +1,9 @@
 project.manifest = manifest.xml
 
 # Base source files
-base.sourcePath = source
+base.sourcePath = source;source/tests
 base.resourcePath = resources
 
 # Device-specific configurations (if needed later)
-fenix7.resourcePath = $(fenix7.resourcePath);resources-fenix7
-fenix8.resourcePath = $(fenix8.resourcePath);resources-fenix8
+# fenix7.resourcePath = $(fenix7.resourcePath);resources-fenix7
+# fenix8.resourcePath = $(fenix8.resourcePath);resources-fenix8
