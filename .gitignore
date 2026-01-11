@@ -1,0 +1,14 @@
+# Build outputs
+bin/
+*.prg
+
+# IDE settings
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# SDK generated
+.connectiq/
